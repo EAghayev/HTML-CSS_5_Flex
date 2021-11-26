@@ -1,0 +1,116 @@
+
+*{
+    box-sizing: border-box;
+}
+.bg-1{
+    background-color: gray;
+}
+.container
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+}
+
+.row::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+
+    width: 33.33%;
+}
+
+.col-5{
+    width: 41.66%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.33%;
+}
+
+.col-11{
+    width: 91.66%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+[class^="col"]{ 
+    float: left;
+}
+
+.text{
+    height: 265px;
+    background-color: hotpink;
+}
+
+#education .item{
+    border:1px solid;
+    height: 265px;
+    background-color: khaki;
+}
+
+.logo{
+    height: 50px;
+    background-color: lavender;
+}
+
+nav{
+    height: 50px;
+    background-color: lightcyan;
+}
+
+.search{
+    height: 50px;
+    background-color: lightseagreen;
+}
+
+.slide{
+    height: 500px;
+    background-color: lightsteelblue;
+}
+
+#our-features .text{
+    height: 300px;
+    background-color: indianred;
+}
+
+#our-features .item{
+    height: 300px;
+    background-color: lightyellow;
+    border: 1px solid green;
+    margin:20px;
+}
